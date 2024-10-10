@@ -10,7 +10,7 @@ from langchain.agents import initialize_agent
 # print(os.environ.get("OPENAI_API_KEY")) #key should now be available
 
 # ChatOpenAI(api_key = os.environ.get("OPENAI_API_KEY"))
-# ChatOpenAI(api_key = "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")
+# ChatOpenAI(api_key = "")
 
 
 llm = ChatOpenAI(model="gpt-3.5-turbo", api_key="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")
